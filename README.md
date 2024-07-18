@@ -111,16 +111,145 @@ We welcome contributions to the MinakiLabs Spider Project. Please read our contr
   - Comprehensive documentation.
   - User support and maintenance.
 
-## Upcoming Features
+# Upcoming Features
 
-### ASCII Art and Loading Wheels
+# Core Features
+
+## ASCII Art and Loading Wheels
 
 Our CLI tool features cool ASCII art and loading wheels to enhance the user experience.
 
-
-### Shorten CLI Commands 
+## Shorten CLI Commands 
 
 from --display to --d or just -d (Do this for entire cli)
+
+## Advanced Scraping Engine
+- Improved error handling
+- Support for more complex scraping scenarios (e.g., AJAX-loaded content)
+
+## Querying JSON Data
+- Enhanced JMESPath querying capabilities
+- Support for complex nested queries
+
+## User-friendly CLI
+- Interactive command line options
+- Enhanced help and documentation within CLI
+
+# Security Features
+
+## API Key Management
+- Secure storage and management of API keys
+- Rotation and expiration of API keys
+
+## User Authentication and Authorization
+- Role-based access control (RBAC)
+- OAuth2/JWT for secure API access
+
+# Performance and Scalability
+
+## IP Rotation
+- Automatic rotation of IPs
+- Configurable IP rotation policies
+
+## Device Switching
+- Customizable user-agent strings
+- Rotation of user-agents to mimic different devices
+
+## Scalability Enhancements
+- Load balancing
+- Auto-scaling capabilities
+
+# Frontend Enhancements
+
+## Improved UI/UX
+- Modern design with responsive layout
+- Intuitive navigation and user flows
+
+## Interactive Elements
+- Real-time data visualization
+- Interactive guides and tutorials
+
+## User Dashboard
+- Manage scraping tasks
+- View and export scraping results
+
+# Documentation
+
+## Comprehensive Documentation
+- Detailed setup and installation guides
+- API reference documentation
+- Examples and use cases
+
+## IP Rotation and Device Switching Documentation
+- Guides on configuring and using these features
+
+# Feedback and Issue Tracking
+
+## Feedback Mechanism
+- Integrated feedback form
+- Automatic creation of Jira tickets from feedback
+
+## Issue Tracking
+- Public Jira board for tracking issues and feature requests
+- Notifications for issue updates
+
+# Scripting Language (Optional)
+
+## Simple Scripting Language Integration
+- Define the scope and functionality of the scripting language
+- Support for custom scripts to automate scraping tasks
+
+# API Enhancements
+
+## Endpoint Improvements
+- Detailed logging and error handling
+- Enhanced security features
+
+## Additional Endpoints
+- Endpoint for user feedback
+- Endpoint for managing user settings
+
+# Testing and QA
+
+## Automated Testing
+- Unit tests for all core functionalities
+- Integration tests for API endpoints
+
+## Quality Assurance
+- Regular QA sessions to identify and fix issues
+- Beta testing program with selected users
+
+# Deployment and Maintenance
+
+## Deployment Pipeline
+- Continuous Integration/Continuous Deployment (CI/CD) setup
+- Rollback capabilities for failed deployments
+
+## Monitoring and Alerts
+- Real-time monitoring of system performance
+- Alerting for any issues or downtime
+
+# Miscellaneous
+
+## Cool Graphics and ASCII Art
+- Enhance the CLI with ASCII art and loading animations
+- Improve user experience with visual feedback
+
+## User Support
+- Comprehensive support portal
+- Live chat support for premium users
+
+# Roadmap Planning
+
+## Feature Prioritization
+- Prioritize features based on user feedback and business needs
+- Regular updates to the roadmap
+
+## Community Engagement
+- Involve the community in feature planning
+- Regular updates and engagement on social platforms
+
+
 
 
 
