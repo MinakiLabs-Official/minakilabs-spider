@@ -1,6 +1,3 @@
-(Tunnel Spider)
-
-MinakiLabs Spider Project 
 
 # MinakiLabs Spider Project (Tunnel Spider)
 
@@ -9,13 +6,14 @@ Welcome to the MinakiLabs Spider Project, also known as Tunnel Spider! This proj
 ## Overview
 
 The MinakiLabs Spider Project is a comprehensive solution for web scraping, allowing you to extract and query data from web pages seamlessly. Key features include:
-- **Automated Web Scraping:** Extract data from web pages with our powerful scraping engine.
-- **Querying JSON Data:** Use JMESPath to query and manipulate the scraped JSON data.
-- **User-friendly CLI:** Access all functionalities via our intuitive Command Line Interface (CLI).
-- **IP Rotation:** Ensure anonymity and avoid IP blocking with our extensive pool of IP addresses.
-- **Customizable Device Switching:** Change the device type for each request to mimic different user agents.
-- **API Integration:** Integrate our scraping capabilities into your applications with our well-documented API.
-- **Detailed Documentation:** Comprehensive guides and references to help you get the most out of our service.
+
+- **Automated Web Scraping**: Extract data from web pages with our powerful scraping engine.
+- **Querying JSON Data**: Use JMESPath to query and manipulate the scraped JSON data.
+- **User-friendly CLI**: Access all functionalities via our intuitive Command Line Interface (CLI).
+- **IP Rotation**: Ensure anonymity and avoid IP blocking with our extensive pool of IP addresses.
+- **Customizable Device Switching**: Change the device type for each request to mimic different user agents.
+- **API Integration**: Integrate our scraping capabilities into your applications with our well-documented API.
+- **Detailed Documentation**: Comprehensive guides and references to help you get the most out of our service.
 
 ## Installation
 
@@ -30,87 +28,89 @@ To get started with the MinakiLabs Spider CLI tool, follow these installation st
 
 ```bash
 pip install spider-cli
-Configuration Guide
+```
 
-Setting Up Your API Key
+## Configuration Guide
+
+### Setting Up Your API Key
+
 Before using the CLI, set up your API key:
 
-bash
-Copy code
+```bash
 spider login
+```
+
 To configure the API key:
 
-bash
-Copy code
+```bash
 spider config --apikey YOUR_API_KEY
-Usage Guide
+```
 
-Scrape a Web Page
+## Usage Guide
+
+### Scrape a Web Page
+
 To scrape a web page and display the data in the console:
 
-bash
-Copy code
+```bash
 spider scrape https://example.com --display
-Query Scraped Data
+```
+
+### Query Scraped Data
+
 To scrape a web page and query the data using JMESPath:
 
-bash
-Copy code
+```bash
 spider query https://example.com --query 'links[*]' --display
-API Reference
+```
 
-Endpoints
-Scrape HTML
+## API Reference
 
-URL: /api/v1/scrape-html
+### Endpoints
 
-Method: POST
+#### Scrape HTML
 
-Query Parameters:
+- **URL**: /api/v1/scrape-html
+- **Method**: POST
+- **Query Parameters**:
+  - **url**: The URL of the web page to scrape.
+- **Headers**:
+  - **apikey**: Your API key.
+  - **Content-Type**: application/json
+- **Response**:
+  - Returns the scraped data in JSON format.
 
-url: The URL of the web page to scrape.
-Headers:
-
-apikey: Your API key.
-Content-Type: application/json
-Response:
-
-Returns the scraped data in JSON format.
-
-Contact
+## Contact
 
 For any questions or support, please contact us at support@minakilabs.dev.
 
-Feedback and Support
+## Feedback and Support
 
 We are using Jira for issue tracking and feedback. Please visit our Jira board to report any issues or to request new features.
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contributing
+## Contributing
 
 We welcome contributions to the MinakiLabs Spider Project. Please read our contributing guidelines for more details.
 
-Roadmap
+## Roadmap
 
-Pre-Alpha
-Initial release of CLI tool and API
-Basic scraping and querying functionality
-Documentation and usage examples
-Alpha
-Feedback collection and bug fixes
-Additional features like IP rotation and device switching
-Enhanced documentation
-Beta
-Performance improvements
-Expanded feature set based on user feedback
-Security enhancements
-Release
-Full release with all planned features
-Comprehensive documentation
-User support and maintenance
-ASCII Art and Loading Wheels
+- **Pre-Alpha**:
+  - Initial release of CLI tool and API.
+  - Basic scraping and querying functionality.
+  - Documentation and usage examples.
+- **Alpha**:
+  - Feedback collection and bug fixes.
+  - Additional features like IP rotation and device switching.
+  - Enhanced documentation.
+- **Beta**:
+  - Performance improvements.
+  - Expanded feature set based on user feedback.
+  - Security enhancements.
+- **Release**:
+  - Full release with all planned features.
+  - Comprehensive documentation.
+  - User support and maintenance.
+
+## ASCII Art and Loading Wheels
 
 Our CLI tool features cool ASCII art and loading wheels to enhance the user experience.
