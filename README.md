@@ -15,7 +15,7 @@ The MinakiLabs Spider Project is a comprehensive solution for web scraping, allo
 
 ## Installation
 
-To get started with the MinakiLabs Spider CLI tool, follow these installation steps:
+## To get started with the MinakiLabs Spider CLI tool, follow these installation steps:
 
 ### Prerequisites
 
@@ -32,7 +32,7 @@ pip install spider-cli
 
 ## Setting Up Your API Key
 
-Before using the CLI, set up your API key:
+# Before using the CLI, set up your API key:
 
 spider login
 
@@ -74,4 +74,4 @@ spider query https://example.com --query 'links[*]' --display
 
 **Response:**
 
-Returns the scraped data in JSON format.
+#Returns the scraped data in JSON format.
