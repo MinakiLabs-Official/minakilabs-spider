@@ -111,14 +111,14 @@ We welcome contributions to the MinakiLabs Spider Project. Please read our contr
   - Comprehensive documentation.
   - User support and maintenance.
 
-##Upcoming Features
+## Upcoming Features
 
-###ASCII Art and Loading Wheels
+### ASCII Art and Loading Wheels
 
 Our CLI tool features cool ASCII art and loading wheels to enhance the user experience.
 
 
-###Shorten CLI Commands 
+### Shorten CLI Commands 
 
 from --display to --d or just -d (Do this for entire cli)
 
