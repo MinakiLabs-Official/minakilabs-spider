@@ -82,7 +82,7 @@ spider query https://example.com --query 'links[*]' --display
 
 ## Contact
 
-For any questions or support, please contact us at support@minakilabs.dev.
+For any questions or support, please contact us at support@minakilabs.com
 
 ## Feedback and Support
 
