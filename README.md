@@ -1,3 +1,5 @@
+markdown
+Copy code
 # MinakiLabs Spider Project (Tunnel Spider)
 
 Welcome to the MinakiLabs Spider Project, also known as Tunnel Spider! This project helps you efficiently scrape and query web data using our advanced scraping technology.
@@ -15,7 +17,7 @@ The MinakiLabs Spider Project is a comprehensive solution for web scraping, allo
 
 ## Installation
 
-## To get started with the MinakiLabs Spider CLI tool, follow these installation steps:
+To get started with the MinakiLabs Spider CLI tool, follow these installation steps:
 
 ### Prerequisites
 
@@ -24,54 +26,89 @@ The MinakiLabs Spider Project is a comprehensive solution for web scraping, allo
 
 ### Installation via pip
 
+```bash
 pip install spider-cli
+Configuration Guide
 
-#### configuration.md
+Setting Up Your API Key
+Before using the CLI, set up your API key:
 
-# Configuration Guide
-
-## Setting Up Your API Key
-
-# Before using the CLI, set up your API key:
-
+bash
+Copy code
 spider login
+To configure the API key:
 
-#configure API
-
+bash
+Copy code
 spider config --apikey YOUR_API_KEY
+Usage Guide
 
-# Usage Guide
+Scrape a Web Page
+To scrape a web page and display the data in the console:
 
-## Scrape a Web Page
-
-#To scrape a web page and display the data in the console:
-
+bash
+Copy code
 spider scrape https://example.com --display
+Query Scraped Data
+To scrape a web page and query the data using JMESPath:
 
-#Query Scraped Data
-#to scrape a web page and query the data using JMESPath:
-
+bash
+Copy code
 spider query https://example.com --query 'links[*]' --display
+API Reference
 
-# API Reference
+Endpoints
+Scrape HTML
 
-## Endpoints
+URL: /api/v1/scrape-html
 
-### Scrape HTML
+Method: POST
 
-**URL:** `/api/v1/scrape-html`
+Query Parameters:
 
-**Method:** `POST`
+url: The URL of the web page to scrape.
+Headers:
 
-**Query Parameters:**
+apikey: Your API key.
+Content-Type: application/json
+Response:
 
-- `url`: The URL of the web page to scrape.
+Returns the scraped data in JSON format.
 
-**Headers:**
+Contact
 
-- `apikey`: Your API key.
-- `Content-Type`: `application/json`
+For any questions or support, please contact us at support@minakilabs.dev.
 
-**Response:**
+Feedback and Support
 
-#Returns the scraped data in JSON format.
+We are using Jira for issue tracking and feedback. Please visit our Jira board to report any issues or to request new features.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contributing
+
+We welcome contributions to the MinakiLabs Spider Project. Please read our contributing guidelines for more details.
+
+Roadmap
+
+Pre-Alpha
+Initial release of CLI tool and API
+Basic scraping and querying functionality
+Documentation and usage examples
+Alpha
+Feedback collection and bug fixes
+Additional features like IP rotation and device switching
+Enhanced documentation
+Beta
+Performance improvements
+Expanded feature set based on user feedback
+Security enhancements
+Release
+Full release with all planned features
+Comprehensive documentation
+User support and maintenance
+ASCII Art and Loading Wheels
+
+Our CLI tool features cool ASCII art and loading wheels to enhance the user experience.
