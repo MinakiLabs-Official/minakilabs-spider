@@ -24,54 +24,35 @@ To get started with the MinakiLabs Spider CLI tool, follow these installation st
 
 ### Installation via pip
 
-```bash
 pip install spider-cli
 
 #### configuration.md
 
-```markdown
 # Configuration Guide
 
 ## Setting Up Your API Key
 
 Before using the CLI, set up your API key:
 
-
-
-```bash
 spider login
-
 
 #configure API
 
 spider config --apikey YOUR_API_KEY
-shell
-Copy code
 
-#### usage.md
-
-```markdown
 # Usage Guide
 
 ## Scrape a Web Page
 
-To scrape a web page and display the data in the console:
+#To scrape a web page and display the data in the console:
 
-```bash
 spider scrape https://example.com --display
-Query Scraped Data
 
-To scrape a web page and query the data using JMESPath:
+#Query Scraped Data
+#to scrape a web page and query the data using JMESPath:
 
-bash
-Copy code
 spider query https://example.com --query 'links[*]' --display
-makefile
-Copy code
 
-#### api_reference.md
-
-```markdown
 # API Reference
 
 ## Endpoints
